@@ -37,7 +37,7 @@
         if($shape->verification($_POST)){
 
             //计算图形的周长和面积
-            echo $shape->name . "的周长为: " . $shape->zhou() . "<br>";
+            echo $shape->name . "的周长为: " . $shape->perimeter() . "<br>";
             echo $shape->name . "的面积为: " . $shape->area() . "<br>";
             }
         }

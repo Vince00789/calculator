@@ -22,7 +22,7 @@ class Triangle extends Shape{
     }
 
     function area(){
-            $p = ($this->bian1 + $this->bian2 + $this->bian3)/2;
+            $p = ($this->bian1 + $this->bian2 + $this->bian3) / 2;
 
             return sqrt($p * ($p - $this->bian1) * ($p - $this->bian2) * ($p - $this->bian3));
     }

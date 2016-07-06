@@ -20,6 +20,7 @@ class Rect extends Shape{
         }
         $this->name = "矩形";
     }
+
     function area()
     {
         return $this->width * $this->height;
